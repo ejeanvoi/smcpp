@@ -1,5 +1,6 @@
 from __future__ import print_function
 from setuptools import setup, Extension, find_packages, dist
+dist.Distribution().fetch_build_eggs(['numpy==1.20.3'])
 import os
 import os.path
 import glob
